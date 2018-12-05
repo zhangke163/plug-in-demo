@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A simple jQuery image viewing plugin.">
+  <meta name="author" content="Chen Fengyuan">
+  <title>Viewer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/viewer.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Content -->
+        <div class="docs-galley">
+          <ul class="docs-pictures clearfix">
+            <li><img data-original="images/tibet-1.jpg" src="images/thumbnails/tibet-1.jpg" alt="Cuo Na Lake"></li>
+            <li><img data-original="http://122.225.120.146:8082/jhzhps1/portal/assets/well_image/0124YS1317.jpg" src="images/thumbnails/tibet-2.jpg" alt="Tibetan Plateau"></li>
+            <li><img data-original="images/tibet-3.jpg" src="images/thumbnails/tibet-3.jpg" alt="Jokhang Temple"></li>
+            
+          </ul>
+        </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/viewer.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    var htms = `<li><img data-original="images/tibet-1.jpg" src="images/thumbnails/tibet-1.jpg" alt="Cuo Na Lake"></li>`;
+    $('.docs-pictures').append(htms);
+  </script>
+</body>
+</html>
